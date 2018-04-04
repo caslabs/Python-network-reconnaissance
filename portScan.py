@@ -14,8 +14,7 @@ end = raw_input("ending port : ")
 userPorts = [ ]
 for portNum in range(int(start),int(end)+1):
     userPorts.append(portNum)
-
-
+  
 openPorts = [ ]
 
 def checkPort(portNum):
@@ -24,8 +23,6 @@ def checkPort(portNum):
            openPorts.append(portNum)
 
 pool = ThreadPool(15)
-
-
 
 results = pool.map(checkPort, userPorts)
 
