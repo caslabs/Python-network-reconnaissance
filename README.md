@@ -38,7 +38,7 @@ Returns System infomation on targeted MAC Addresses. Uses macvendors API.<br>
 **WebSpider Bitcoin***<br>
 Script that returns bitcoin cryptocurrency value (Single, Market Cap, and 24 Volume) to USD currency with time stamps that writes it into bitcoin.txt. <br>
 Open bitcoin.txt and run webSpider.py to grab single, market cap, and 24 volume currency rate. <br>
-****features in webspider.py**** <br>
-Scrap('https://coinmarketcap.com/currencies/bitcoin/').getSingle() returns USD currency of a single bitcoin<br>
-Scrap('https://coinmarketcap.com/currencies/bitcoin/').getMarketValue() returns the Market Cap of bitcoin to USD currency<br>
-Scrap('https://coinmarketcap.com/currencies/bitcoin/').getVolume24hr() returns 24hour volume of bitcoin to USD currency<br>
+****features in webspider files**** <br>
+getSingle() returns USD currency of a single bitcoin<br>
+getMarketValue() returns the Market Cap of bitcoin to USD currency<br>
+getVolume24hr() returns 24hour volume of bitcoin to USD currency<br>
